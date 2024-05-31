@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 155vh; 
+    height: 100%; 
     margin: 0; 
     padding: 0; 
 }
@@ -55,13 +55,17 @@ body {
 .footer-navbar li 
 {
     display: bloack;
+    list-style-type: none ;
 }
+
+
 .footer-navbar a 
 {
     text-decoration: none;
-    list-style-type: none;
     color: white;
+
 }
+
 @media only screen and (max-width:553px)
 {
 .nav ul 
